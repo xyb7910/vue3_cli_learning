@@ -10,9 +10,9 @@ const app = createApp(App)
 // 挂载
 app.mount('#app')
 
-// setTimeout(() => {
-//     app.unmount('#app');
-// }, 2000)
+setTimeout(() => {
+    app.unmount('#app');
+}, 2000)
 
 // vue2 写法
 // const vm = new Vue({
